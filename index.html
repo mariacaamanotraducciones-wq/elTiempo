@@ -4,43 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tiempo app</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form action="">
-        <input type="text" placeholder="Enter a city" required />
-        <input type="submit" value="Search" class="button" />
-      </form>
-    </header>
-    <h1>Paris</h1>
-    <div class="weather-today">
-      <p>
-        Friday 12,39, partly sunny
-        <br />
-        Humidity: <strong>60%</strong> Wind: <strong>20km/h</strong>
-        <br />
-        <br />
+    <div class="container">
+      <header>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter a city"
+            class="search-imput"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="today-weather">
+          <div>
+            <h1 class="current-city">Paris</h1>
+            <p class="details">
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">🌦️ 13°C</div>
         </div>
-        <div>
-        🌤️13°
-        </div>
-      </p>
-    
-    <footer>
-      Coded by
-      <a href="https://github.com/mariacaamanotraducciones-wq" target="_blank"
-        >Maria Caamano</a
-      >
-      and is on
-      <a
-        href="https://github.com/mariacaamanotraducciones-wq/elTiempo"
-        target="_blank"
-        >Github</a
-      >
-      and hosted in
-      <a href="https://tiempo-shecodes-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/mariacaamanotraducciones-wq" target="_blank"
+          >Maria Caamano</a
+        >
+        and is on
+        <a
+          href="https://github.com/mariacaamanotraducciones-wq/elTiempo"
+          target="_blank"
+          >Github</a
+        >
+        and hosted in
+        <a href="https://tiempo-shecodes-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
