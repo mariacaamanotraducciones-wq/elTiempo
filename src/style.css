@@ -64,11 +64,20 @@ a {
   padding-top: 10px;
 }
 .current-weather {
-  font-size: 48px;
+  display: flex;
   font-weight: 900;
 }
 .weather-Icon {
-  padding-right: 0;
+  width: 88px;
+  height: 88px;
+}
+.current-temperature {
+  line-height: 88px;
+  font-size: 88px;
+}
+.weather-Unit {
+  font-size: 28px;
+  margin-top: 6px;
 }
 .details {
   color: rgba(39, 33, 66, 0.7);
