@@ -63,9 +63,12 @@ a {
   justify-content: space-between;
   padding-top: 10px;
 }
-.current-temperature {
+.current-weather {
   font-size: 48px;
   font-weight: 900;
+}
+.weather-Icon {
+  padding-right: 0;
 }
 .details {
   color: rgba(39, 33, 66, 0.7);
